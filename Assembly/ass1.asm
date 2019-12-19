@@ -1,30 +1,30 @@
-# Quest„o 02 PROVA-SUB
-# Leia 4 vari·veis (x, y, z, w) fazendo o c·lculo de uma equanÁ„o em uma funÁ„o
+# Quest√£o 02 PROVA-SUB
+# Leia 4 vari√°veis (x, y, z, w) fazendo o c√°lculo de uma equan√ß√£o em uma fun√ß√£o
 .data
 
 .text
 
-	#Lendo um n˙mero inteiro do teclado X
+	#Lendo um n√∫mero inteiro do teclado X
 	addi $v0,$zero,5 # read integer
 	syscall
-	move $a0,$v0 #movendo o valor lido para uma vari·vel
+	move $a0,$v0 #movendo o valor lido para uma vari√°vel
 	
-	#Lendo um n˙mero inteiro do teclado Y
+	#Lendo um n√∫mero inteiro do teclado Y
 	addi $v0,$zero,5 # read integer
 	syscall
-	move $a1,$v0 #movendo o valor lido para uma vari·vel
+	move $a1,$v0 #movendo o valor lido para uma vari√°vel
 	
-	#Lendo um n˙mero inteiro do teclado Z
+	#Lendo um n√∫mero inteiro do teclado Z
 	#contador i
 	addi $v0,$zero,5 # read integer
 	syscall
-	move $a2,$v0 #movendo o valor lido para uma vari·vel
+	move $a2,$v0 #movendo o valor lido para uma vari√°vel
 	
-	#Lendo um n˙mero inteiro do teclado W
+	#Lendo um n√∫mero inteiro do teclado W
 	#contador j
 	addi $v0,$zero,5 # read integer
 	syscall
-	move $a3,$v0 #movendo o valor lido para uma vari·vel
+	move $a3,$v0 #movendo o valor lido para uma vari√°vel
 
 	 
 For1:
@@ -56,7 +56,7 @@ function:
 	 sw $t3, 4($sp)
 	 sw $s4, 0($sp)    
 	
-	 #movendo valores para variaveis tempor·rias 
+	 #movendo valores para variaveis tempor√°rias 
 	 add $t2,$zero,$s0
 	 add $t3,$zero,$s1
 	 
@@ -75,9 +75,9 @@ function:
 	 	 
 	 
 	
-	
-	 
-            
+	#####################################################
+	#               CODIGO SUJEITO A REVIS√ÉO            #
+        #####################################################
       	 
 	
 
